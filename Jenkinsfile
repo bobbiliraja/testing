@@ -33,7 +33,6 @@ pipeline {
       }
     }
     stage('Build Release') {
-      when {
    
       steps {
         container('maven') {
