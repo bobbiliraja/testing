@@ -44,8 +44,8 @@ pipeline {
 
           // so we can retrieve the version in later steps
           sh "echo \$(jx-release-version) > VERSION"
-          sh "mvn versions:set -DnewVersion=\$(cat VERSION)"
-          sh "jx step tag --version \$(cat VERSION)"
+         // sh "mvn versions:set -DnewVersion=\$(cat VERSION)"
+         // sh "jx step tag --version \$(cat VERSION)"
           sh "mvn clean package"
           sh "skaffold version"
           sh "export VERSION=`cat VERSION` && skaffold build -f skaffold.yaml"
