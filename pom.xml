@@ -57,7 +57,7 @@
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
 	<scm>
-		<connection>scm:git:https://github.com/MTDevOps/maven-standalone-application</connection>
+		<connection>scm:git:https://github.com/MDevOps/maven-standalone-application</connection>
 		<developerConnection>scm:git:https://github.com/MTDevOps/maven-standalone-application</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/MTDevOps/maven-standalone-application</url>
