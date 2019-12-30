@@ -1,0 +1,3 @@
+# Nmap 6.40 scan initiated Mon Dec 30 16:24:42 2019 as: nmap -sT -o localhost
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Mon Dec 30 16:24:42 2019 -- 0 IP addresses (0 hosts up) scanned in 0.20 seconds
